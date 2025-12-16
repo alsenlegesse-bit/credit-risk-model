@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# KEEP THESE - They're required for the project:
+# data/processed/     # <- COMMENTED OUT - Keep these files!
+# models/            # <- COMMENTED OUT - Keep these files!
